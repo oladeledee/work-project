@@ -1,0 +1,364 @@
+.jub{
+    background-image:url(../Images/barley-2117454_1920.jpg);
+    background-size:cover;
+    background-position:center;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    height:100vh;
+    position: relative;
+}
+@media (max-width: 767px) {
+    .col-sm-6 {
+        margin-top:20px;
+    }
+}
+
+
+.navbar-brand{
+  color:black;
+}
+.lin{
+ color:black;
+ margin-left:170px ;
+ margin-top:20px;
+}
+.cl{
+    font-size:50px;
+    margin-left:40px;
+}
+nav{
+    margin-top:10px;
+}
+ .p-one{
+  margin-top:200px;
+  font-weight:bolder;
+  font-size:40px;
+ }
+ .section1{
+     /* background-color:#EED16E; */
+     color:black;
+     background-color:whitesmoke;
+     /* #FFF388 */
+ }
+ /* .pic{
+     margin-top:-70px;
+     margin-left:70px;
+ } */
+  .section2{
+      background-image:url(../Images/petra-cigale-CLtxWYH4sYs-unsplash.jpg);
+      height:100%;
+      background-size:cover;
+      background-position:center;
+  }
+   .overlay{
+    /* position: absolute; */
+    top:0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(72,62,60,0.7); 
+     margin:0px; 
+    padding:0px;
+  } 
+  .icon2{
+    color: white;
+    font-size:80px;
+    
+  }
+  .column3{
+      background-image:url(../Images/jakub-kapusnak-vLQzopDRSNI-unsplash.jpg);
+      background-size:cover;
+    background-position:center;
+  }
+  .contain{
+    position: relative;
+    /* width: 50%; */
+  }
+  
+  .image1 {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:green;
+  }
+  
+  .contain:hover .overlay1 {
+    opacity: 0.7;
+    padding:0px;
+    margin:0px;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .last-sec{
+    background-color:black;
+    color:white;
+
+
+  }
+   /* *{
+    font-size:16px;
+  }
+  @media (min-width: 576px - 787px) { 
+    *{
+      font-size:25px;
+     
+    }
+    .p-one{
+      /* margin-top:350px; */
+      /* font-size:50px!important;
+    }
+  }
+    @media (min-width: 768px ) { 
+      *{
+        /* font-size:20px; */
+        /* margin-top:-30px; 
+        *
+        
+        /
+
+      } 
+      /* .p-one{
+         
+         /* font-size:50px; *
+         
+         /
+      }
+      /* .contain{
+        margin-top:30px;
+      }
+     } */ */ */
+ 
+     /* @media (min-width: 992px) { 
+       *{
+         font-size:30px; 
+       }
+       .lin{
+         margin-left:90px;
+       }
+       .p-one{
+         margin-top:350px;
+       }
+
+      } */
+      /* @media (min-width: 1200px) { 
+        *{
+          font-size:20px;
+        }
+        .cl{
+          font-size:70px;
+        }
+        .p-one{
+          margin-top:5px;
+        }
+       }
+       body{min-height:200vh;}
+
+       @media screen and (min-width: 1400px) {
+        *{
+         font-size:40px; 
+        }
+      }
+      @media screen and (min-width: 1600px) {
+        * {
+        font-size:40px;
+        }
+      }
+      @media screen and (min-width: 1900px) {
+        * {
+          /* font-size:80px; */
+          /* width:100vw; */
+    
+     
+.navbar-default{
+  transition:500ms ease;
+  background:transparent;
+}
+.navbar-default.scrolled{
+  background:rgb(1, 71, 1);
+  margin-top:0px;
+  padding-top:0px; 
+
+}
+
+
+.ju{
+  background-image: url(../Images/francesco-gallarotti-ruQHpukrN7c-unsplash.jpg);
+  background-size:cover;
+  background-position:center;
+  border-radius: 0px;
+  margin-bottom: 0px;
+  height:85vh;
+  position: relative;
+}
+    
+/* .jumb-overlay{
+  top:0px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color:rgb(224, 205, 85,0.7); 
+   margin:0px; 
+  padding:0px;
+} */
+#jumb-overlay{
+    position: absolute;
+    top:0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(224, 201, 99,.6);
+    
+}
+.p-two{
+  font-weight:bolder;
+  font-size:40px;
+}
+.hthr{
+  font-weight:bolder;
+}
+.last{
+  background-color:black;
+  border-top:1px solid white;
+  /* margin-top:3px; */
+}
+.j{
+  background-image: url(../Images/orchard-1872997_1920.jpg);
+  background-size:cover;
+  background-position:center;
+  border-radius: 0px;
+  margin-bottom: 0px;
+  height:85vh;
+  position: relative;
+}
+@media (min-width: 768px) and (max-width:991px){
+  *{
+      font-size:15px;  
+  }
+  .p-one{
+     margin-top:300px; 
+     font-size:35px;
+
+  }
+  .cl{
+    font-size:50px;
+  }
+  .ve,.gr{
+    margin-top:20px;
+  }
+ }
+ @media (min-width:1024px)and (max-width:1439px) { 
+   *{
+     font-size:20px;
+   }
+   .lin{
+     margin-left:70px;
+   }
+   .cl{
+     font-size:100px;
+   }
+   .p-one{
+    margin-top:400px; 
+    font-size:30px;
+
+ }
+ .ve,.gr{
+  margin-top:20px;
+
+
+  }
+ 
+}
+@media (min-width:1439px)  and (max-width : 1824px) {
+  *{
+    font-size:38px;
+  }
+  }
+
+  @media (min-width:1440px)and (max-width:2650px) { 
+     *{
+       font-size:28px;
+     } 
+     .p-one{
+       margin-top:400px;
+       font-size:50px;
+     }
+     .cl{
+      font-size:50px;
+    }
+    .ve,.gr{
+      margin-top:20px;
+    
+    
+      }
+      
+  }
+  @media (min-width:2560px){ 
+    *{
+      font-size:50px;
+    }
+    .cl{
+      font-size:200px;
+    }
+    .ve,.gr{
+      margin-top:20px;
+    
+    
+      }
+      .p-one{
+        margin-top:700px;
+        font-size:70px;
+      }
+  }
+  .jol{
+    
+      background-image: url(../Images/benjamin-davies-Zm2n2O7Fph4-unsplash.jpg);
+      background-size:cover;
+      background-position:center;
+      border-radius: 0px;
+      margin-bottom: 0px;
+      height:70vh;
+      position: relative;
+    
+  }
+  .ico{
+    font-size:60px;
+  }
+
+  .colsd{
+    background-color:#E5C76D;
+  }
+  .google-maps {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
